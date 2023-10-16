@@ -434,7 +434,7 @@ int resend_key(int c) {
   uint32_t t_send = millis();
   while (!keyboard_data_sent_ok) {
     // Ensure we process any new video data while waiting ...
-    process_video();
+    //process_video();  // Remove this line because it was causing repeating characters on the video display
     uint32_t t_now = millis();
     if (t_now - t_send >= KBD_SEND_TIMEOUT_MS) {
       Serial.println("KBD TIMEOUT");
