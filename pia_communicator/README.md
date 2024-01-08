@@ -1,0 +1,1 @@
+Open .ino file in Arduino IDE for Arduino Nano
