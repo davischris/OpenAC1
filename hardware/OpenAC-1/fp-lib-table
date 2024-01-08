@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name rc6502)(type KiCad)(uri "$(KIPRJMOD)/rc6502.pretty")(options "")(descr ""))
+  (lib (name Oscillator)(type KiCad)(uri "C:\\Users\\cdavis\\Documents\\Electronic Projects\\RC6502-Apple-1-Replica-master - Copy\\Templates\\Oscillator.pretty")(options "")(descr ""))
+  (lib (name Modules)(type Github)(uri "$(KIGITHUB)/Modules.pretty")(options "")(descr ""))
+  (lib (name ASCIIvideo.pretty)(type KiCad)(uri "C:\\Users\\cdavis\\Documents\\Electronic Projects\\ASCIIvideo\\.pretty")(options "")(descr ""))
+)
